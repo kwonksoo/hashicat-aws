@@ -1,6 +1,6 @@
-module "s3_bucket" {
+module "s3-bucket" {
   source  = "app.terraform.io/kwonksoo/s3-bucket/aws"
   version = "2.8.0"
 
-  bucket = "kyungsoo_kwon_test_bucket6345234"
+  bucket = "kyungsoo-kwon-test-bucket6345234"
 }
